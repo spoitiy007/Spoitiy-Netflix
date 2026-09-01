@@ -148,12 +148,12 @@ input {
 
 .box1 {
     margin: 10px;
-    border: 1px solid white;
     height: 300px;
     width: 20%;
     padding: 10px;
     border-radius: 15px;
     position: relative;
+    background: linear-gradient(rgba(0, 19, 54, 0.596), rgba(38, 0, 48, 0.781));
 }
 
 .box1 h2 {
