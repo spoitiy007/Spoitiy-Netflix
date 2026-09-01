@@ -147,13 +147,13 @@ input {
 }
 
 .box1 {
-    margin: 10px;
+    margin: 40px 10px 10px 10px;
     height: 300px;
     width: 20%;
     padding: 10px;
     border-radius: 15px;
     position: relative;
-    background: linear-gradient(rgba(0, 19, 54, 0.596), rgba(38, 0, 48, 0.781));
+    background: linear-gradient(rgba(0, 19, 54, 0.781), rgba(38, 0, 48, 0.87));
 }
 
 .box1 h2 {
