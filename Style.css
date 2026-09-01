@@ -8,18 +8,16 @@
 body {
     margin: 0;
     min-height: 100vh;
-
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
         url("Background_Img.jpg");
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .first-interaction {
-    height: 90vh;
+    height: 101vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -76,6 +74,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .main-text {
@@ -85,6 +84,9 @@ button:hover{
     color: white;
     text-align: center;
     width: 700px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-70%);
 }
 
 .main-text h1 {
@@ -120,4 +122,52 @@ input {
 .Start {
     height: 50px;
     width: 180px;
+}
+
+.task {
+    height: 100px;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    border-top: 3px solid red;
+    position: relative;
+}
+
+.feature-text {
+    margin-top: 70px;
+    padding-left: 40px;
+    color: white;
+}
+
+/* FEAURE */
+.feature {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    margin: 10px;
+    border: 1px solid white;
+    height: 300px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.box1 h2 {
+    margin: 10px 10px 20px 10px;
+}
+
+.box1 p {
+    margin: 10px;
+    color: #FFFFFFB3;
+}
+
+.box1 i {
+    position: absolute;
+    font-size: 50px;
+    bottom: 20px;
+    right: 20px;
 }
