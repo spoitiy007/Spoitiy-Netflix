@@ -88,24 +88,36 @@ button:hover{
 }
 
 .main-text h1 {
-    /* margin-bottom: 0.7rem; */
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     font-size: 50px;
 }
 
-.para {
-    display: flex;
-    width: 100%;
-    text-align: center;
-    flex-wrap: wrap;
-    width: 500px;
+.main-text a {
+    align-self: center;
+    width: 55%;
 }
-
 .context {
     height: 150px;
     width: 700px;
     top: 20px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+    padding-left: 10px;
+    border: 1px white solid;
+    border-radius: 4px;
+}
+
+.Start {
+    height: 50px;
+    width: 180px;
 }
