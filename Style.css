@@ -139,7 +139,6 @@ input {
 
 /* FEAURE */
 .feature {
-    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
@@ -170,4 +169,10 @@ input {
     font-size: 50px;
     bottom: 20px;
     right: 20px;
+}
+
+.Base-body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
 }
