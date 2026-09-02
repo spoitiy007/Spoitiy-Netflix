@@ -145,7 +145,7 @@ input {
     flex-wrap: wrap;
 }
 
-.box1 {
+.box {
     margin: 40px 10px 10px 10px;
     height: 300px;
     width: 20%;
@@ -155,16 +155,16 @@ input {
     background: linear-gradient(rgba(0, 19, 54, 0.781), rgba(38, 0, 48, 0.87));
 }
 
-.box1 h2 {
+.box h2 {
     margin: 10px 10px 20px 10px;
 }
 
-.box1 p {
+.box p {
     margin: 10px;
     color: #FFFFFFB3;
 }
 
-.box1 i {
+.box i {
     position: absolute;
     font-size: 50px;
     bottom: 20px;
@@ -175,4 +175,27 @@ input {
     height: 100%;
     width: 100%;
     background-color: black;
+}
+
+/* Movies */
+
+.movie h2 {
+    margin: 40px 10px 40px 30px;
+    color: white;
+}
+
+.movie-section {
+    height: 100%;
+    width: 100% ;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.poster {
+    height: 300px;
+    width: 17%;
+    border-radius: 7px;
+    background-size: cover;
 }
