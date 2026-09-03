@@ -212,7 +212,7 @@ input {
 .Question {
     justify-self: center;
     width:84%;
-    height: 900px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -227,8 +227,71 @@ input {
 
 .Question option {
     color: white;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(36, 36, 36);
     font-size: 24px;
     font-weight: 500;
     padding: 24px;  
+}
+
+/* last-interaction */
+
+.last-interaction {
+    padding: 5rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.last-interaction a {
+    display: flex;
+    justify-content: center;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+}
+
+.user-info input {
+    height: 50px;
+    width: 40%;
+    border: 1px solid rgb(34, 34, 34);
+    background-color: rgba(19, 19, 19, 0.74);
+}
+
+.user-info button {
+    height: 50px;
+    width: 15%;
+    margin-left: 10px;
+}
+
+/* info-box */
+
+.call {
+    color: rgb(175, 173, 173);
+    margin: 0 0 3rem 10rem;
+    font-size: 1rem;
+}
+
+.call a {
+    text-decoration: underline;
+}
+
+.info {
+    color: rgb(175, 173, 173);
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info li {
+    text-decoration: underline;
+    padding-bottom: 15px;
+    font-size: 14px;
 }
