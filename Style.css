@@ -14,6 +14,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .first-interaction {
@@ -177,10 +180,14 @@ input {
     background-color: black;
 }
 
+.feature-text {
+    padding-left: 6.5rem;
+}
+
 /* Movies */
 
 .movie h2 {
-    margin: 0px 10px 40px 30px;
+    margin: 0px 10px 40px 6.5rem;
     color: white;
 }
 
@@ -203,16 +210,25 @@ input {
 /* FAQ */
 
 .Question {
-    width: 100%;
+    justify-self: center;
+    width:84%;
     height: 900px;
-    border: 2px solid white;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.Question h2 {
+    color: white;
+    left: 2rem;
 }
 
 .Question option {
     color: white;
-    background-color: rgb(94, 93, 93);
-    height: 85px;
+    background-color: rgb(51, 51, 51);
+    font-size: 24px;
+    font-weight: 500;
+    padding: 24px;  
 }
